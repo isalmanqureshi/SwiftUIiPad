@@ -14,6 +14,7 @@
 		5C09ABD02A3E126200AFC1D2 /* SwiftUIiPadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C09ABCF2A3E126200AFC1D2 /* SwiftUIiPadTests.swift */; };
 		5C09ABDA2A3E126200AFC1D2 /* SwiftUIiPadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C09ABD92A3E126200AFC1D2 /* SwiftUIiPadUITests.swift */; };
 		5C09ABDC2A3E126200AFC1D2 /* SwiftUIiPadUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C09ABDB2A3E126200AFC1D2 /* SwiftUIiPadUITestsLaunchTests.swift */; };
+		5C09ABE92A3E5C9F00AFC1D2 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C09ABE82A3E5C9F00AFC1D2 /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		5C09ABD52A3E126200AFC1D2 /* SwiftUIiPadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIiPadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C09ABD92A3E126200AFC1D2 /* SwiftUIiPadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIiPadUITests.swift; sourceTree = "<group>"; };
 		5C09ABDB2A3E126200AFC1D2 /* SwiftUIiPadUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIiPadUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5C09ABE82A3E5C9F00AFC1D2 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				5C09ABC02A3E126000AFC1D2 /* ContentView.swift */,
 				5C09ABC22A3E126200AFC1D2 /* Assets.xcassets */,
 				5C09ABC42A3E126200AFC1D2 /* Preview Content */,
+				5C09ABE82A3E5C9F00AFC1D2 /* CollectionViewCell.swift */,
 			);
 			path = SwiftUIiPad;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			files = (
 				5C09ABC12A3E126000AFC1D2 /* ContentView.swift in Sources */,
 				5C09ABBF2A3E126000AFC1D2 /* SwiftUIiPadApp.swift in Sources */,
+				5C09ABE92A3E5C9F00AFC1D2 /* CollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
