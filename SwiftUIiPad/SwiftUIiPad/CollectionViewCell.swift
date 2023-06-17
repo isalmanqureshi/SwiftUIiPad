@@ -8,8 +8,16 @@
 import SwiftUI
 
 struct CollectionViewCell: View {
+    static let column = 3
+    static let row = 2
+    let width = UIScreen.main.bounds.width / 3 - 20
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            RoundedRectangle(cornerRadius: 8)
+                .frame(width: width, height: width)
+                .foregroundColor(.blue)
+            Text(.now, style: .time)
+        }
     }
 }
 
